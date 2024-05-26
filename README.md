@@ -12,7 +12,7 @@ Instructions:
         DB_PORT =  <br />
         DATABASE =  <br />
     
-          Populate the .env file according to your liking (PORT, SECRET) & with the connection parameters of the database you want to connect to <br />
+          Populate the .env file according to your liking (PORT, SECRET) & with the connection parameters of the database you want to connect to
     
           Create a config file in the config folder (config/config.json) with the following content, and populate it with the same credentials 
             {
@@ -49,11 +49,11 @@ Instructions:
           .env is used for the actual running of the backend
             Ideally, this would get migrated to work with the CLI 100%, also having the types of the entities created with Sequelize annotated (future todo)
   
-  2 - Run the migrations (create the DB tables):
-    npx sequelize-cli db:migrate
+  2 - Run the migrations (create the DB tables): <br />
+    npx sequelize-cli db:migrate <br />
   
-  3 - Run the tests:
-    npm run test
+  3 - Run the tests: <br />
+    npm run test <br />
   
-  4 - Fire up the backend:
-    npm run dev
+  4 - Fire up the backend: <br />
+    npm run dev <br />
