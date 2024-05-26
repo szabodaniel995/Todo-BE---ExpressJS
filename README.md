@@ -4,17 +4,17 @@ Instructions:
     Fire up PgAdmin (or your preferred localhost DB tool) // or use the credentials of a hosted database <br />
       Create a database <br />
       Create a .env file in the root directory of the backend with the following content <br />
-        PORT = 
-        SECRET = 
-        DB_USERNAME = 
-        DB_PASSWORD = 
-        HOST = 
-        DB_PORT = 
-        DATABASE = 
+        PORT = <br />
+        SECRET =  <br />
+        DB_USERNAME =  <br />
+        DB_PASSWORD =  <br />
+        HOST =  <br />
+        DB_PORT =  <br />
+        DATABASE =  <br />
     
-          Populate the .env file according to your liking (PORT, SECRET) & with the connection parameters of the database you want to connect to
+          Populate the .env file according to your liking (PORT, SECRET) & with the connection parameters of the database you want to connect to <br />
     
-          Create a config file in the config folder (config/config.json) with the following content, and populate it with the same credentials
+          Create a config file in the config folder (config/config.json) with the following content, and populate it with the same credentials 
             {
                 "development": {
                     "username": ,
