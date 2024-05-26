@@ -1,6 +1,6 @@
 Instructions:
 
-  1 - Database setup
+  1 - Database setup:
     Fire up PgAdmin (or your preferred localhost DB tool) // or use the credentials of a hosted database
       Create a database
       Create a .env file in the root directory of the backend with the following content
@@ -49,11 +49,11 @@ Instructions:
           .env is used for the actual running of the backend
             Ideally, this would get migrated to work with the CLI 100%, also having the types of the entities created with Sequelize annotated (future todo)
   
-  2 - Run the migrations (create the DB tables)
+  2 - Run the migrations (create the DB tables):
     npx sequelize-cli db:migrate
   
-  3 - Run the tests
+  3 - Run the tests:
     npm run test
   
-  4 - Fire up the backend
+  4 - Fire up the backend:
     npm run dev
