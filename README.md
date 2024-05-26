@@ -1,9 +1,9 @@
 Instructions:
 
-  1 - Database setup:
-    Fire up PgAdmin (or your preferred localhost DB tool) // or use the credentials of a hosted database
-      Create a database
-      Create a .env file in the root directory of the backend with the following content
+  1 - Database setup: <br />
+    Fire up PgAdmin (or your preferred localhost DB tool) // or use the credentials of a hosted database <br />
+      Create a database <br />
+      Create a .env file in the root directory of the backend with the following content <br />
         PORT = 
         SECRET = 
         DB_USERNAME = 
