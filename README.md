@@ -4,6 +4,7 @@ Instructions:
     Fire up PgAdmin (or your preferred localhost DB tool) // or use the credentials of a hosted database <br />
       Create a database <br />
       Create a .env file in the root directory of the backend with the following content <br />
+      <br />
         PORT = <br />
         SECRET =  <br />
         DB_USERNAME =  <br />
