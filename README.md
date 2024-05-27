@@ -1,5 +1,7 @@
 Instructions:
 
+  0 - Run npm install <br />
+  
   1 - Database setup: <br />
     Fire up PgAdmin (or your preferred localhost DB tool) // or use the credentials of a hosted database <br />
       Create two databases - one for development, one for testing <br />
@@ -48,7 +50,6 @@ Instructions:
   2 - Run the migrations (create the DB tables): <br />
   npm run db:migrate <br />
   npm run db:migrate:test <br />
- <br />
   
   3 - Run the tests: <br />
     npm run test <br />
