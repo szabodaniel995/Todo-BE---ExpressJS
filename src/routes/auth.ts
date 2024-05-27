@@ -20,7 +20,7 @@ router.post("/signup", async (req: Request<AuthBody>, res: Response, next) => {
 			throw new ExpressError("Please provide credentials for registration", 400);
 		}
 
-		const user: any = await User.findAll({
+		const user = await User.findAll({
 			where: {
 				email
 			}

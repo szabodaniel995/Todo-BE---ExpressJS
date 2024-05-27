@@ -4,7 +4,9 @@ import * as dotenv from "dotenv";
 dotenv.config();
 
 export const sequelize = new Sequelize(
-	process.env.database as string,
+	process.env.NODE_ENV === "test"
+		? (process.env.test_database as string)
+		: (process.env.database as string),
 	process.env.db_username as string,
 	process.env.db_password as string,
 	{

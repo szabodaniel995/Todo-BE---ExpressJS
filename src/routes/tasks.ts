@@ -9,7 +9,7 @@ router.get("/", requireAuth(), async (req: Request, res: Response, next: NextFun
 	try {
 		const tasks = await Task.findAll();
 
-		const returnTasks = tasks.map(task => task["dataValues"]);
+		const returnTasks = tasks.map(task => task.dataValues);
 
 		res.status(200).json({
 			msg: "Task list request received, sending response",
