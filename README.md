@@ -16,8 +16,8 @@ Instructions:
          <br />
           Populate the .env file according to your liking (PORT, SECRET) & with the connection parameters of the databases that you want to connect to
     
-          Create a config file in the config folder (config/config.json) with the following content, and populate it with the same credentials <br />
-          Note - referencing the .env file does not work here. This is a dependency of the Sequelize CLI for handling the migrations <br />
+          Create a config file in the config folder (config/config.json) with the following content, and populate it with the same credentials
+          Note - referencing the .env file does not work here. This is a dependency of the Sequelize CLI for handling the migrations 
             {
                 "development": {
                     "username": ,
