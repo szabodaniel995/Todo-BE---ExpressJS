@@ -1,7 +1,8 @@
-import { DataTypes } from "sequelize";
+import { DataTypes, Model } from "sequelize";
 import { sequelize } from "../db";
+import { UserAttributes } from "../../../models/user";
 
-export const User = sequelize.define("User", {
+export const User = sequelize.define<Model<UserAttributes>>("User", {
 	id: {
 		type: DataTypes.INTEGER,
 		autoIncrement: true,

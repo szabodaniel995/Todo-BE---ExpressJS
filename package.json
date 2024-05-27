@@ -7,7 +7,9 @@
 		"build": "npx tsc",
 		"start": "node dist/server.js",
 		"dev": "nodemon src/server.ts",
-		"test": "jest --runInBand"
+		"test": "cross-env NODE_ENV=test jest --runInBand",
+		"db:migrate": "npx sequelize-cli db:migrate",
+		"db:migrate:test": "cross-env NODE_ENV=test npx sequelize-cli db:migrate"
 	},
 	"keywords": [],
 	"author": "",
@@ -32,6 +34,7 @@
 		"babel-cli": "^6.26.0",
 		"babel-jest": "^29.7.0",
 		"babel-preset-env": "^1.7.0",
+		"cross-env": "^7.0.3",
 		"jest": "^29.7.0",
 		"nodemon": "^3.1.0",
 		"superagent": "^9.0.2",

@@ -23,7 +23,7 @@ export const requireAuth = () => {
 
 			const authenticated = await User.findAll({
 				where: {
-					email: payload.userId
+					email: payload.userId as string
 				}
 			});
 
